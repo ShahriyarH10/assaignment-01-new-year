@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin: 0;
 }
 
 header {
@@ -61,7 +61,7 @@ header {
 }
 
 .join {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     border-radius: 16px;
     height: 500px;
@@ -139,7 +139,7 @@ header {
 }
 
 .best-offer-soon {
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .best-offer-subtitle{
@@ -154,25 +154,26 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .best-offer-descrip{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
+    margin-top: 0px;
 }
 
 .best-offer-img {
-    margin: 0px 100px;
+    margin-right: 100px;
     border: 15px solid #F00;
     padding: 30px;
     border-radius: 50%;
 }
 
 .best-offer-2024-content {
-    padding-right: 30px;
+    padding-right: 0px;
 }
 
 .best-offer-2024-titles{
@@ -180,24 +181,25 @@ header {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .best-offer-2024-descrip {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
 }
 
 .best-offer-2024-img {
-    padding-top: 43px;
+    padding-top: 50px;
 
 }
 
 /* Holidays Sale 50% */
 .holidays-section {
-    margin: 50px 140px;
+    margin: 120px 140px;
     text-align: center;
 }
 
@@ -212,9 +214,9 @@ header {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .holidays-descirption{
@@ -225,8 +227,35 @@ header {
     padding: 0px 80px;  
 }
 
+.holidays-50-off {
+    background: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: top right;
+}
+
+.holidays-50-off > img {
+    padding: 50px 500px;
+}
+
+.holidays-box {
+    background: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.holidays-box > img {
+    padding-right: 500px;
+    width: 200px;
+}
 
 /* Our Awesome Porfolio Section */
+.awesome-portfolio-section{
+    align-items: center;
+    margin: 120px 140px;
+}
+
 .awesome-portfolio-subtitle {
     color: #F00;
     font-family: Inter;
@@ -239,6 +268,7 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 .awesome-portfolio-descirption {
@@ -247,11 +277,6 @@ header {
     font-size: 20px;
     font-weight: 400;
     padding-right: 350px;
-}
-
-.awesome-portfolio-section{
-    align-items: center;
-    margin: 50px 140px;
 }
 
 .image-table1 {
