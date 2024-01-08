@@ -59,10 +59,11 @@ header {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 16px;
-    height: 450px;
+    height: 500px;
     margin: 120px 140px;
-    padding-top: 126px;
+    padding-top: 70px;
     padding-left: 126px;
+    display: flex;
     
 }
 
@@ -71,6 +72,8 @@ header {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 0px;
 }
 
 .join-descrption {
@@ -78,7 +81,6 @@ header {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 24px;
 }
 
 .join-btn {
@@ -90,4 +92,8 @@ header {
     font-weight: 700;
     margin-left: 28px;
     margin-top: 30px;
+}
+
+.join-img {
+    margin-left: 60px;
 }
