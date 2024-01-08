@@ -130,7 +130,7 @@ header {
     margin: 50px 140px;
     display: flex;
     align-items: center;
-    background-color: bisque;
+    justify-content: space-between;
 }
 
 .best-offer-soon {
@@ -144,14 +144,83 @@ header {
     border-radius: 50%;
 }
 
-.best-offer-2024 {
+.best-offer-2024-content {
     padding-right: 30px;
 }
 
 .best-offer-2024-img {
+    padding-top: 43px;
 
 }
 
+
+.awesome-portfolio-section{
+    align-items: center;
+    margin: 50px 140px;
+}
+
+.image-table1 {
+    gap: 20px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.image-table2 {
+    gap: 20px;
+    display: flex;
+}
+
+.portfolio-img-size {
+    width: 400px;
+    height: 400px;
+}
+
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 50px 140px;
+}
+
+.newsletter-img {
+    padding-top: 80px;
+}
+
+.newsletter-descrption {
+    padding: 0px 212px;
+}
+
+.newsletter-input {
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: Inter;
+    
+}
+
+.mail {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 24px 447px 24px 30px;
+    margin-left: 0px;
+}
+
+.sub-btn {
+    background: #F00;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    padding: 25px 56px;
+    font-weight: 700;
+}
+
+/* footer section */
 footer {
     background-color: #070211;
     height: 609px;
