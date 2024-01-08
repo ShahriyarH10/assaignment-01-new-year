@@ -20,7 +20,7 @@ header {
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-    margin-top: 16px;
+    margin-top: 0px;
 }
 
 .offer-title{
@@ -48,11 +48,12 @@ header {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 8px;  
+    margin-top: 0px;
+    margin-bottom: 0px;  
 }
 
 .offer-img {
-    margin: 48px 350px;
+    padding: 48px 300px;
 }
 
 .join {
@@ -84,7 +85,7 @@ header {
 }
 
 .join-btn {
-    background-color: black;
+    background: none;
     color: #FFF;
     border: none;
     text-align: center;
@@ -96,4 +97,92 @@ header {
 
 .join-img {
     margin-left: 60px;
+}
+
+.join-placedatetime {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    padding-top: 80px;
+    margin: 140px;
+    border-radius: 16px;
+}
+
+.add-color {
+    color: #F00;
+}
+
+.join-datetime-btn {
+    background: #F00;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.best-offer {
+    margin: 50px 140px;
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+
+.best-offer-soon {
+    padding-left: 30px;
+}
+
+.best-offer-img {
+    margin: 0px 100px;
+    border: 15px solid #F00;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.best-offer-2024 {
+    padding-right: 30px;
+}
+
+.best-offer-2024-img {
+
+}
+
+footer {
+    background-color: #070211;
+    height: 609px;
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 500;
+    
+}
+
+.footer {
+    padding: 120px 140px;
+    align-items: center;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-address {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.social-links {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.copy-right {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
 }
